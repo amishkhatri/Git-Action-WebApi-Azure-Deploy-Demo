@@ -14,6 +14,7 @@ namespace Git_Action_WebApi_Azure_Deploy_Demo
 
         public string Country { get; set; }
 
+        public string City { get; set; }
 
     }
 }
