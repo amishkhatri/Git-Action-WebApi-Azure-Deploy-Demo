@@ -27,13 +27,14 @@ namespace Git_Action_WebApi_Azure_Deploy_Demo.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 10).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)],
                 Country = "India",
-                City = "Mumbai"
+                City = "Mumbai",
+                State = "Maharashtra"
             })
             .ToArray();
         }
