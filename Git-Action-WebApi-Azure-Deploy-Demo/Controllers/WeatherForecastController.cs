@@ -34,7 +34,8 @@ namespace Git_Action_WebApi_Azure_Deploy_Demo.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)],
                 Country = "India",
                 City = "Mumbai",
-                State = "Maharashtra"
+                State = "MH"
+
             })
             .ToArray();
         }
