@@ -1,5 +1,6 @@
 name: 'Deploy to Azure App Service'
 
+
 on:
   push:
     branches: [ master ]
